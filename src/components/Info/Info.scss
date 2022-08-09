@@ -1,0 +1,58 @@
+.Info {
+  .picture {
+    display: block;
+    width: 317px;
+    height: 317px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .body {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+
+    h1 {
+      font-size: 1.5625rem;
+    }
+
+    p {
+      color: #F3BF99;
+      font-size: .8125rem;
+    }
+
+    a {
+      color: #fff;
+      text-decoration: none;
+      font-size: .625rem;
+    }
+
+    .btn__container {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 1em;
+      column-gap: 10px;
+    }
+
+    .btn {
+      padding: 10px 20px;
+      background: #fff;
+      color: #374151;
+      border-radius: 6px;
+      font-size: 14px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      column-gap: 4px;
+    }
+
+    .btn--linkedin {
+      background: #5093E2;
+      color: #fff;
+    }
+  }
+}
